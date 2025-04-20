@@ -1,0 +1,29 @@
+id: bio-v1
+project: Sympoiesis
+created_at: 2025-04-20
+status: sealed
+language: en
+description: Initial subject memory snapshot for the Sympoiesis project
+keywords:
+  - graysurf
+  - modular identity
+  - discourse preservation
+  - rhythm-based design
+memory_map:
+  level: Lv5
+  roles:
+    - modular designer
+    - system-level initiator
+    - primary discourse anchor
+  preferences:
+    programming_languages: [TypeScript, Scala, Go]
+    architecture: ["modular", "functional", "separation-of-concerns"]
+    commit_style: "lowercase-first, (api) for backend, backtick-emphasized identifiers"
+  decisions:
+    - chat history stored in Google Drive due to Gist limitations
+    - modules stored in Gist (private)
+    - bio and chat metadata indexed via chains.index.yml
+  project_origin:
+    repository: https://github.com/graysurf/Sympoiesis
+    initiated_by: Ω.grf#001
+signed_by: Ω.grf#001

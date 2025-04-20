@@ -1,0 +1,58 @@
+project: Sympoiesis
+project_id: Ω.proj.sympoiesis.v1
+description: realizing sustainable co-existence between discourse systems and the world
+created_at: 2025-04-20
+initiated_by: Ω.grf#001
+status: active
+
+bio:
+  current: bio/bio-v1.yml
+  version: 1.0.0
+  storage:
+    type: gist
+    visibility: private
+    url: null  # to be updated
+
+modules:
+  - id: sf.sympoiesis.intent.zh
+    version: 1.0.0
+    status: sealed
+    signed_by: Ω.grf#001
+    storage:
+      type: gist
+      visibility: private
+      url: null
+
+  - id: Ω.v1.identity.protocol
+    version: 1.0.0
+    status: sealed
+    signed_by: Ω.grf#001
+    storage:
+      type: gist
+      visibility: private
+      url: null
+
+  - id: Ω.v1.agent-configuration.protocol
+    version: 1.0.0
+    status: active
+    signed_by: Ω.grf#001
+    storage:
+      type: gist
+      visibility: private
+      url: null
+
+  - id: gm.dual-storage.protocol
+    version: 1.0.0
+    status: sealed
+    signed_by: Ω.grf#001
+    storage:
+      type: gist
+      visibility: private
+      url: null
+
+chatlog:
+  - date: 2025-04-20
+    context: Sympoiesis project initiation and sealing protocol definitions
+    storage:
+      type: gdrive
+      url: null  # to be updated
